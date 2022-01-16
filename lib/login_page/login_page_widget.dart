@@ -1,6 +1,7 @@
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
+import '../main.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -194,8 +195,14 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       FFButtonWidget(
-                        onPressed: () {
-                          print('Button-Login pressed ...');
+                        onPressed: () async {
+                          await Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) =>
+                                  NavBarPage(initialPage: 'ItemListPage'),
+                            ),
+                          );
                         },
                         text: 'Login',
                         options: FFButtonOptions(
