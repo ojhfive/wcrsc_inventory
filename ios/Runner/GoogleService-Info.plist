@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>705647647345-c61l36nbcl2pptk4p8f7s8fkr736spsm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.705647647345-c61l36nbcl2pptk4p8f7s8fkr736spsm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDXsCbryaz7Q6xfhmcJvBkbGRYHZ_MWlMs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>705647647345</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.flutterflow.inventory</string>
+	<key>PROJECT_ID</key>
+	<string>inventorysystem-da876</string>
+	<key>STORAGE_BUCKET</key>
+	<string>inventorysystem-da876.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:705647647345:ios:50415e99ceedaea02f59d0</string>
+</dict>
+</plist>
