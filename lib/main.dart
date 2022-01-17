@@ -12,6 +12,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'login_page/login_page_widget.dart';
 import 'home_page_copy/home_page_copy_widget.dart';
 import 'item_list_page/item_list_page_widget.dart';
+import 'add_item_page/add_item_page_widget.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -93,6 +94,7 @@ class _NavBarPageState extends State<NavBarPage> {
       'LoginPage': LoginPageWidget(),
       'HomePageCopy': HomePageCopyWidget(),
       'ItemListPage': ItemListPageWidget(),
+      'AddItemPage': AddItemPageWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPage);
     return Scaffold(
@@ -129,6 +131,14 @@ class _NavBarPageState extends State<NavBarPage> {
               size: 24,
             ),
             label: 'Item List',
+            tooltip: '',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.add,
+              size: 24,
+            ),
+            label: 'Add Item',
             tooltip: '',
           )
         ],

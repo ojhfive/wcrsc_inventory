@@ -58,9 +58,9 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Image.asset(
-                        'assets/images/logoRobin@3x.png',
-                        width: 242,
-                        height: 60,
+                        'assets/images/logo.png',
+                        width: MediaQuery.of(context).size.width * 0.2,
+                        height: MediaQuery.of(context).size.height * 0.22,
                         fit: BoxFit.cover,
                       ),
                     ],

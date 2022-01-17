@@ -17,3 +17,7 @@ String checkControlTested(bool controlTested) {
     return 'No';
   }
 }
+
+bool checkControlTestedField(String fieldText) {
+  return (fieldText.toLowerCase() == 'yes');
+}
