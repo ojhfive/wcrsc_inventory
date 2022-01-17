@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "705647647345",
+    "project_id": "inventorysystem-da876",
+    "storage_bucket": "inventorysystem-da876.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705647647345:android:aa70cfdebad157482f59d0",
+        "android_client_info": {
+          "package_name": "com.flutterflow.inventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705647647345-niktsa4v71gl8mkuaot9vkobipoi048g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACuMhnL4A2n8fQ6HSu1pwBSCic2TzAzF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705647647345-niktsa4v71gl8mkuaot9vkobipoi048g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "705647647345-c61l36nbcl2pptk4p8f7s8fkr736spsm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutterflow.inventory"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
